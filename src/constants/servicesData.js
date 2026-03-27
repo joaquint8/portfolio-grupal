@@ -1,22 +1,22 @@
 export const services = [
-    {
-      id: "01",
-      title: "Diseño UX/UI",
-      description: "Arquitectura visual y experiencia de usuario orientada a la conversión y estética moderna."
-    },
-    {
-      id: "02",
-      title: "Desarrollo Web",
-      description: "Sitios robustos, rápidos y optimizados para cualquier dispositivo con código limpio."
-    },
-    {
-      id: "03",
-      title: "Landing para campañas",
-      description: "Páginas enfocadas en captación de leads y ventas."
-    },
-    {
-      id: "04",
-      title: "SEO técnico",
-      description: "Estructura optimizada para posicionar y cargar rápido."
-    }
-  ];
+  {
+    id: "01",
+    title: "Diseño UX / UI",
+    description: "Diseñamos interfaces modernas enfocadas en mejorar la experiencia del usuario."
+  },
+  {
+    id: "02",
+    title: "Desarrollo web a medida",
+    description: "Creamos sitios rápidos, escalables y optimizados con tecnologías modernas adaptadas a tu negocio."
+  },
+  {
+    id: "03",
+    title: "Landing pages",
+    description: "Diseñamos páginas específicas para campañas o eventos que convierten visitas en clientes."
+  },
+  {
+    id: "04",
+    title: "Optimización SEO & rendimiento",
+    description: "Mejoramos la velocidad, estructura y posicionamiento para que tu web destaque en Google."
+  }
+];

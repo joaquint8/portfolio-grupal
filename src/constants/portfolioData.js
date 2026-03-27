@@ -1,34 +1,26 @@
 export const projects = [
     {
       id: 1,
-      title: "Café Aurora",
-      category: "Restaurante",
-      description: "Web para cafetería artesanal con menú interactivo y reservas online.",
+      title: "Miño y Dávila S.R.L",
+      category: "Editorial",
+      description: "App web de administración para administrar stock, proveedores, cuentas corrientes, etc. Permitiendo a su vez poder automatizar procesos y reducir la carga manual.",
       image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=800",
-      tags: ["Diseño", "E-commerce", "SEO"]
+      tags: ["Diseño", "App Web", "Automatización"]
     },
     {
       id: 2,
-      title: "Urban Style Co.",
-      category: "Moda Urbana",
-      description: "E-commerce minimalista optimizado para móviles y alta conversión.",
+      title: "KazzeShop",
+      category: "Tienda Online",
+      description: "E-commerce con integración de envíos y pagos. Panel administrativo de productos, stock y ventas.",
       image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=1000",
-      tags: ["Web App", "Shopify"]
+      tags: ["E-commerce", "Diseño", "Pasarela de pagos", "Envíos"]
     },
     {
       id: 3,
-      title: "BioTech Solutions",
-      category: "Tecnología",
-      description: "Plataforma corporativa para empresa de biotecnología con enfoque en datos.",
+      title: "Fine & Flow",
+      category: "Idiomas In-Company",
+      description: "Plataforma de estudiantes y docentes, con módulos de clases, encuestas, actividades, docentes y panel administrativo para coordinadores",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800",
-      tags: ["React", "Cloud"]
-    },
-    {
-      id: 4,
-      title: "Nova Real Estate",
-      category: "Inmobiliaria",
-      description: "Portal inmobiliario con filtros avanzados y tours virtuales 360.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800",
-      tags: ["UI/UX", "Mapas"]
+      tags: ["App Web", "Diseño"]
     }
   ];

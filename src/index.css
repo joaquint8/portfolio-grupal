@@ -35,10 +35,9 @@ body {
 
 /* 4. COMPONENTES PERSONALIZADOS (Glassmorphism) */
 .glass-card {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: all 0.3s ease;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .light-theme .glass-card {
@@ -101,4 +100,11 @@ body {
 .testimonial-fade-out {
   opacity: 0;
   transform: translateY(10px);
+}
+
+
+/* SweetAlert */
+.swal-confirm-btn {
+  color: #545454 !important;
+  font-weight: bold;
 }

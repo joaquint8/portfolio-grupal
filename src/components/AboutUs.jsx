@@ -9,8 +9,8 @@ const AboutUs = () => {
 
         <img
           src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800"
-          className="w-full h-full object-cover rounded-[40px] transition-all duration-700"
-          alt="Equipo Jenbla"
+          className="hidden lg:block w-full h-full object-cover rounded-[40px] transition-all duration-700"
+          alt="Equipo PulseCode"
         />
 
         <div>
@@ -20,11 +20,11 @@ const AboutUs = () => {
 
           <h2 className={`text-5xl font-extrabold mb-8 tracking-tighter leading-tight ${isDark ? 'text-white' : 'text-slate-900'
             }`}>
-            Somos Jenbla: dos personas, un enfoque obsesivo por el detalle
+            Somos PulseCode: un enfoque obsesivo por el detalle
           </h2>
 
           <p className={`text-lg mb-12 ${isDark ? 'text-gray-400' : 'text-slate-600'}`}>
-            Unimos creatividad, negocio y tecnología para construir páginas que no solo se ven bien: también convierten.
+           Transformamos ideas en páginas web modernas, rápidas y seguras  que cautivan a la vista y generan resultados medibles.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6">
@@ -76,7 +76,7 @@ const AboutUs = () => {
                 <p>Técnico Informático</p>
               </div>
               <a
-                href="https://www.linkedin.com/in/clara-mino/"
+                href="https://www.linkedin.com/in/joaquin-pavone/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto inline-flex items-center gap-2 text-xs font-bold text-gray-400 hover:text-[#0077b5] transition-all group"
