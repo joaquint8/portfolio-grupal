@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import { useNavigation } from '../hooks/useNavigation';
 import { ProjectCard } from './ProjectCard';
 import { projects } from '../constants/portfolioData';
+import ProjectModal from './ProjectModal';
 
 const Portfolio = () => {
   const { isDark } = useNavigation();
+  const [selectedProject, setSelectedProject] = useState(null);
 
   return (
     <section id="portafolio" className="py-24 px-6">
@@ -19,10 +22,21 @@ const Portfolio = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard
+              key={project.id}
+              project={project}
+              onClick={() => setSelectedProject(project)}
+            />
           ))}
         </div>
       </div>
+
+      {selectedProject && (
+        <ProjectModal
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
+        />
+      )}
     </section>
   );
 };

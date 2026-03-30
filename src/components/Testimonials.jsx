@@ -36,44 +36,66 @@ const Testimonials = () => {
 
         <div className={`glass-card p-8 md:p-10 rounded-[32px] relative overflow-hidden transition-colors ${!isDark && 'bg-slate-50 border-slate-200'
           }`}>
-          <div className={`transition-all duration-500 transform ${isFading ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
-            }`}>
+          <div
+              className={`transition-all duration-300 transform ${
+                isFading ? 'opacity-0 -translate-x-8' : 'opacity-100 translate-x-0'
+              }`}
+            >
+              <p
+                className={`text-lg md:text-2xl font-medium italic mb-8 leading-relaxed ${
+                  isDark ? 'text-gray-200' : 'text-slate-700'
+                }`}
+              >
+                {testimonials[current].text}
+              </p>
 
-            <p className={`text-lg md:text-2xl font-medium italic mb-8 leading-relaxed ${isDark ? 'text-gray-200' : 'text-slate-700'
-              }`}>
-              {testimonials[current].text}
-            </p>
-
-            <div className="flex justify-between items-center">
-              <div>
-                <h4 className={`text-lg font-bold ${isDark ? 'text-white' : 'text-slate-900'}`}>
-                  {testimonials[current].name}
-                </h4>
-                <p className="text-[#d4ff00] font-bold uppercase text-[9px] tracking-widest mt-1">
-                  {testimonials[current].role}
-                </p>
-              </div>
-
-              <div className="flex gap-3">
-                <button
-                  onClick={handlePrev}
-                  className={`cursor-pointer w-10 h-10 rounded-full border flex items-center justify-center transition-all group ${isDark ? 'border-white/10 hover:bg-white/5' : 'border-slate-200 hover:bg-slate-100'
+              <div className="flex justify-between items-center">
+                <div>
+                  <h4
+                    className={`text-lg font-bold ${
+                      isDark ? 'text-white' : 'text-slate-900'
                     }`}
-                >
-                  <ChevronLeft className={`w-4 h-4 transition-transform ${isDark ? 'text-white' : 'text-slate-600'}`} />
-                </button>
+                  >
+                    {testimonials[current].name}
+                  </h4>
+                  <p className="text-[#d4ff00] font-bold uppercase text-[9px] tracking-widest mt-1">
+                    {testimonials[current].role}
+                  </p>
+                </div>
 
-                <button
-                  onClick={handleNext}
-                  className={`cursor-pointer w-10 h-10 rounded-full border flex items-center justify-center transition-all group ${isDark ? 'border-white/10 hover:bg-white/5' : 'border-slate-200 hover:bg-slate-100'
+                <div className="flex gap-3">
+                  <button
+                    onClick={handlePrev}
+                    className={`cursor-pointer w-10 h-10 rounded-full border flex items-center justify-center transition-all group ${
+                      isDark
+                        ? 'border-white/10 hover:bg-white/5'
+                        : 'border-slate-200 hover:bg-slate-100'
                     }`}
-                >
-                  <ChevronRight className={`w-4 h-4 transition-transform ${isDark ? 'text-white' : 'text-slate-600'}`} />
-                </button>
+                  >
+                    <ChevronLeft
+                      className={`w-4 h-4 transition-transform ${
+                        isDark ? 'text-white' : 'text-slate-600'
+                      }`}
+                    />
+                  </button>
+
+                  <button
+                    onClick={handleNext}
+                    className={`cursor-pointer w-10 h-10 rounded-full border flex items-center justify-center transition-all group ${
+                      isDark
+                        ? 'border-white/10 hover:bg-white/5'
+                        : 'border-slate-200 hover:bg-slate-100'
+                    }`}
+                  >
+                    <ChevronRight
+                      className={`w-4 h-4 transition-transform ${
+                        isDark ? 'text-white' : 'text-slate-600'
+                      }`}
+                    />
+                  </button>
+                </div>
               </div>
             </div>
-
-          </div>
         </div>
       </div>
     </section>
