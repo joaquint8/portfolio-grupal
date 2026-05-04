@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, X, ExternalLink, Github } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { ChevronLeft, ChevronRight, X, ExternalLink } from 'lucide-react';
 
 const ProjectModal = ({ project, onClose }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -74,7 +74,7 @@ const ProjectModal = ({ project, onClose }) => {
             onClick={handleClose}
             className="absolute top-6 right-6 text-gray-500 hover:text-white transition-colors"
           >
-            <X className="w-8 h-8" />
+            <X className="w-8 h-8 cursor-pointer" />
           </button>
 
           <div>
@@ -94,16 +94,8 @@ const ProjectModal = ({ project, onClose }) => {
               rel="noopener noreferrer"
               className="flex-1 py-5 px-8 rounded-2xl font-bold text-lg text-center flex items-center justify-center gap-3 bg-[#d4ff00] text-black shadow-[0_0_25px_rgba(212,255,0,0.25)] hover:scale-[1.03] transition-transform"
             >
-              Proyecto <ExternalLink className="w-5 h-5" />
-            </a>
-            
-            <a
-              href={project.repoUrl || "#"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 py-5 px-8 rounded-2xl border border-white/20 font-bold text-lg text-center flex items-center justify-center gap-3 hover:bg-white/10 transition-all text-white uppercase tracking-wider"
-            >
-              Repositorio <Github className="w-5 h-5" />
+              {project.isDemo ? "Proyecto (VER DEMO)" : "Proyecto"}
+              <ExternalLink className="w-5 h-5" />
             </a>
           </div>
         </div>

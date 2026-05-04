@@ -94,7 +94,10 @@ const Contact = () => {
                   </div>
                 </div>
               ))}
+
+              <h1>Aca poner el logo</h1>
             </div>
+            
 
             {/* Form */}
             <div className="lg:col-span-8">
