@@ -1,3 +1,8 @@
+import myd from "../assets/myd.png";
+import myd2 from "../assets/myd2.png";
+import kazze from "../assets/kazze3.png";
+import kazze2 from "../assets/kazze2.png";
+
 export const projects = [
     {
       id: 1,
@@ -5,17 +10,19 @@ export const projects = [
       category: "Editorial",
       description: "App web de administración para administrar stock, proveedores, cuentas corrientes, etc. Permitiendo a su vez poder automatizar procesos y reducir la carga manual.",
       isDemo: true,
-      image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=800",
+      image: myd,
+      image2: myd2,
       tags: ["Diseño", "App Web", "Automatización"],
       demoUrl: "https://myd-demo.vercel.app/login",
       repoUrl: "",
     },
     {
       id: 2,
-      title: "KazzeShop",
+      title: "Kazze",
       category: "Tienda Online",
       description: "E-commerce con integración de envíos y pagos. Panel administrativo de productos, stock y ventas.",
-      image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=1000",
+      image: kazze,
+      image2: kazze2,
       tags: ["E-commerce", "Diseño", "Pasarela de pagos", "Envíos"],
       demoUrl: "https://kazzeshop.com.ar/",
       repoUrl: ""

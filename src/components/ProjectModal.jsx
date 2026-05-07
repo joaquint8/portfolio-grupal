@@ -32,7 +32,7 @@ const ProjectModal = ({ project, onClose }) => {
       ></div>
       
       {/* contenedor principal del Modal con animación */}
-      <div className={`bg-[#0a0f1c]/40 backdrop-blur-2xl border border-white/10 w-[1150px] h-[460px] max-w-full max-h-[90vh] overflow-hidden rounded-[24px] relative z-10 grid lg:grid-cols-2 shadow-2xl transform transition-all duration-300 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
+      <div className={`bg-[#0a0f1c]/40 backdrop-blur-2xl border border-white/10 w-[1150px] max-w-full max-h-[90vh] overflow-hidden rounded-[24px] relative z-10 grid lg:grid-cols-2 shadow-2xl transform transition-all duration-300 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
         
         {/* lado izquierdo: Carrusel */}
         <div className="relative bg-black/60 h-full overflow-hidden flex items-center justify-center">
@@ -44,7 +44,7 @@ const ProjectModal = ({ project, onClose }) => {
             />
           ) : (
             <img
-              src={media[currentIndex]}
+              src={project.image2}
               alt={project.title}
               className="w-full h-full object-cover transition-opacity duration-300"
             />
