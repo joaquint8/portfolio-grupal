@@ -6,6 +6,7 @@ export const ProjectCard = ({ project, onClick }) => (
     onClick={onClick}
   >
     <img
+      loading='lazy'
       src={project.image}
       className="w-full h-full object-cover transition-all duration-700"
     />

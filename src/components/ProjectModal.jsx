@@ -44,6 +44,7 @@ const ProjectModal = ({ project, onClose }) => {
             />
           ) : (
             <img
+              loading='lazy'
               src={project.image2}
               alt={project.title}
               className="w-full h-full object-cover transition-opacity duration-300"

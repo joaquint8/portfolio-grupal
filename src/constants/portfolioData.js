@@ -1,9 +1,9 @@
-import myd from "../assets/myd3.png";
-import myd2 from "../assets/myd2.png";
-import kazze from "../assets/kazze1.png";
-import kazze2 from "../assets/kazze2.png";
-import fyf2 from "../assets/fyf2.png";
-import fyf1 from "../assets/fyf1.png";
+import myd from "../assets/myd3.webp";
+import myd2 from "../assets/myd2.webp";
+import kazze from "../assets/kazze1.webp";
+import kazze2 from "../assets/kazze2.webp";
+import fyf2 from "../assets/fyf2.webp";
+import fyf1 from "../assets/fyf1.webp";
 
 export const projects = [
     {

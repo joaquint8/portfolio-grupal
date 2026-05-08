@@ -52,6 +52,7 @@ const Hero = () => {
             isDark ? 'border-white/10 bg-gradient-to-br from-white/5 to-transparent' : 'border-slate-200 bg-slate-100'
           }`}>
             <img 
+              loading='lazy'
               src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=800" 
               className="w-full h-full object-cover transition-all duration-700" 
               alt="Web Design"

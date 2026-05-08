@@ -8,6 +8,7 @@ const AboutUs = () => {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
 
         <img
+          loading='lazy'
           src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800"
           className="hidden lg:block w-full h-full object-cover rounded-[40px] transition-all duration-700"
           alt="Equipo PulseCode"
