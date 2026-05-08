@@ -1,7 +1,9 @@
-import myd from "../assets/myd.png";
+import myd from "../assets/myd3.png";
 import myd2 from "../assets/myd2.png";
-import kazze from "../assets/kazze3.png";
+import kazze from "../assets/kazze1.png";
 import kazze2 from "../assets/kazze2.png";
+import fyf2 from "../assets/fyf2.png";
+import fyf1 from "../assets/fyf1.png";
 
 export const projects = [
     {
@@ -32,7 +34,8 @@ export const projects = [
       title: "Fine & Flow",
       category: "Idiomas In-Company",
       description: "Plataforma de estudiantes y docentes, con módulos de clases, encuestas, actividades, docentes y panel administrativo para coordinadores",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800",
+      image: fyf1,
+      image2: fyf2,
       tags: ["App Web", "Diseño"],
       demoUrl: "https://www.fineandflow.com/",
       repoUrl: ""
