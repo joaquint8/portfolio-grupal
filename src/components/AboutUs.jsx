@@ -25,7 +25,7 @@ const AboutUs = () => {
           </h2>
 
           <p className={`text-lg mb-12 ${isDark ? 'text-gray-400' : 'text-slate-600'}`}>
-           Transformamos ideas en páginas web modernas, rápidas y seguras  que cautivan a la vista y generan resultados medibles.
+           Transformamos ideas en páginas web modernas, rápidas y seguras.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6">
