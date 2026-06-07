@@ -1,5 +1,6 @@
 import { useNavigation } from '../hooks/useNavigation';
-
+import nosotros from "../assets/nosotros.jpeg";
+ 
 const AboutUs = () => {
   const { isDark } = useNavigation();
 
@@ -9,7 +10,7 @@ const AboutUs = () => {
 
         <img
           loading='lazy'
-          src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800"
+          src={nosotros}
           className="hidden lg:block w-full h-full object-cover rounded-[40px] transition-all duration-700"
           alt="Equipo PulseCode"
         />
