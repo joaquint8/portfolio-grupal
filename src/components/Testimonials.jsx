@@ -30,7 +30,7 @@ const Testimonials = () => {
         <span className="text-[#d4ff00] font-bold text-xs uppercase tracking-[0.3em] mb-4 block">
           Testimonios
         </span>
-        <h2 className={`text-4xl md:text-5xl font-extrabold mb-16 tracking-tight ${isDark ? 'text-white' : 'text-slate-900'}`}>
+        <h2 className={`text-4xl font-extrabold mb-16 tracking-tight ${isDark ? 'text-white' : 'text-slate-900'}`}>
           Lo que dicen nuestros clientes
         </h2>
 
@@ -42,7 +42,7 @@ const Testimonials = () => {
               }`}
             >
               <p
-                className={`text-lg md:text-2xl font-medium italic mb-8 leading-relaxed ${
+                className={`text-[18px] font-medium italic mb-8 leading-relaxed ${
                   isDark ? 'text-gray-200' : 'text-slate-700'
                 }`}
               >
@@ -52,7 +52,7 @@ const Testimonials = () => {
               <div className="flex justify-between items-center">
                 <div>
                   <h4
-                    className={`text-lg font-bold ${
+                    className={`text-[16px] font-bold ${
                       isDark ? 'text-white' : 'text-slate-900'
                     }`}
                   >

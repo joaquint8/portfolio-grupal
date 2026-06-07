@@ -16,11 +16,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
 
           {/* Logo */}
-          <div className="flex flex-col">
-            <a href="#inicio" className="text-brandLime font-black text-xl leading-none">
-              PulseCode
-            </a>
-          </div>
+          <a href="#inicio" className="flex items-center h-full">
+            <img 
+              src="LogosinFondo.png" 
+              alt="PulseCode" 
+              className="h-30 w-auto object-contain" 
+            />
+          </a>
 
           {/* Links Desktop */}
           <div className="hidden lg:flex items-center gap-8">

@@ -32,13 +32,13 @@ const Contact = () => {
               CONTACTO
             </span>
 
-            <h2 className={`text-4xl md:text-5xl font-extrabold tracking-tight mb-6 ${isDark ? 'text-white' : 'text-slate-900'
+            <h2 className={`text-4xl font-extrabold tracking-tight mb-6 ${isDark ? 'text-white' : 'text-slate-900'
               }`}>
-              ¿Tenes un <span className="text-[#d4ff00] italic">proyecto?</span>
+              ¿Tenés un <span className="text-[#d4ff00] italic">proyecto?</span>
             </h2>
 
             <p className={`${isDark ? 'text-gray-500' : 'text-slate-500'} text-base max-w-lg`}>
-              Cuéntanos tu idea y te responderemos en menos de 24 horas.
+              Contános tu idea y te respondemos en menos de 24 horas.
             </p>
           </div>
 
@@ -95,7 +95,11 @@ const Contact = () => {
                 </div>
               ))}
 
-              <h1>Aca poner el logo</h1>
+            <img 
+              src="LogosinFondo.png" 
+              alt="PulseCode" 
+              className="h-60 w-auto object-contain" 
+            />
             </div>
             
 
@@ -118,7 +122,7 @@ const Contact = () => {
                       type="text"
                       required
                       placeholder="Tu nombre"
-                      className={`w-full border rounded-xl px-4 py-3 outline-none focus:border-[#d4ff00] transition-colors ${isDark
+                      className={`w-full border rounded-xl px-3 py-2 outline-none focus:border-[#d4ff00] transition-colors ${isDark
                         ? 'bg-white/5 border-white/10 text-white placeholder:text-gray-600'
                         : 'bg-white border-slate-200 text-slate-900 placeholder:text-slate-300'
                         }`}
@@ -135,7 +139,7 @@ const Contact = () => {
                       type="email"
                       required
                       placeholder="correo@email.com"
-                      className={`w-full border rounded-xl px-4 py-3 outline-none focus:border-[#d4ff00] transition-colors ${isDark
+                      className={`w-full border rounded-xl px-3 py-2 outline-none focus:border-[#d4ff00] transition-colors ${isDark
                         ? 'bg-white/5 border-white/10 text-white placeholder:text-gray-600'
                         : 'bg-white border-slate-200 text-slate-900 placeholder:text-slate-300'
                         }`}
@@ -154,7 +158,7 @@ const Contact = () => {
                     rows="5"
                     required
                     placeholder="Contános sobre tu proyecto..."
-                    className={`w-full border rounded-xl px-4 py-3 outline-none focus:border-[#d4ff00] transition-colors resize-none ${isDark
+                    className={`w-full border rounded-xl px-3 py-2 outline-none focus:border-[#d4ff00] transition-colors resize-none ${isDark
                       ? 'bg-white/5 border-white/10 text-white placeholder:text-gray-600'
                       : 'bg-white border-slate-200 text-slate-900 placeholder:text-slate-300'
                       }`}
@@ -164,7 +168,7 @@ const Contact = () => {
                 {/* Botón */}
                 <button
                   type="submit"
-                  className="w-full bg-[#d4ff00] text-black py-4 rounded-2xl font-bold text-sm flex items-center justify-center gap-2 transition-all cursor-pointer"
+                  className="w-full bg-[#d4ff00] text-black py-3 rounded-2xl font-bold text-sm flex items-center justify-center gap-2 transition-all cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   Enviar mensaje

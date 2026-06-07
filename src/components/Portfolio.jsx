@@ -9,18 +9,21 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section id="portafolio" className="py-24 px-6">
+    <section id="portafolio" className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-16">
-          <span className="text-[#d4ff00] font-bold text-xs uppercase tracking-[0.3em] mb-4 block">
+        
+        {/* Cabecera adaptada a la estructura de la referencia */}
+        <div className="mb-10 flex flex-col gap-3 lg:max-w-4xl">
+          <span className="text-[#d4ff00] font-bold uppercase tracking-[0.3em] text-xs">
             Portafolio
           </span>
-          <h2 className={`text-4xl md:text-5xl font-extrabold tracking-tight ${isDark ? 'text-white' : 'text-slate-900'}`}>
-            Nuestros últimos trabajos
+          <h2 className={`text-3xl font-extrabold sm:text-4xl tracking-tight mb-12 ${isDark ? 'text-white' : 'text-slate-900'}`}>
+            Nuestros proyectos más recientes
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* Grilla que pasa a 3 columnas en pantallas grandes (lg) */}
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <ProjectCard
               key={project.id}

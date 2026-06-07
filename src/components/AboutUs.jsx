@@ -19,7 +19,7 @@ const AboutUs = () => {
             Equipo
           </span>
 
-          <h2 className={`text-5xl font-extrabold mb-8 tracking-tighter leading-tight ${isDark ? 'text-white' : 'text-slate-900'
+          <h2 className={`text-4xl font-extrabold mb-8 tracking-tighter leading-tight ${isDark ? 'text-white' : 'text-slate-900'
             }`}>
             Somos PulseCode: un enfoque obsesivo por el detalle
           </h2>
