@@ -8,5 +8,10 @@ export const testimonials = [
     name: "Andrés Guerrero",
     role: "Facilitador - Scrum Master en Morfeo Consultora",
     text: "Excelente disposición y escucha activa para entender el problema; y una actitud ágil a la hora de resolverlo con efectividad y profesionalismo"
+  },
+  {
+    name: "Gerardo Miño",
+    role: "Socio gerente de Miño y Dávila editores",
+    text: "Nuestra experiencia con el equipo de Pulse Code fue excelente. Supieron captar nuestras necesidades con gran empatía, anticipándose incluso a aspectos que no habíamos considerado. Destacamos su profesionalismo en cada etapa y la actitud proactiva durante las pruebas de armado del programa de gestión administrativa para la editorial. Nos sentimos acompañados y comprendidos, lo que hizo que el proceso fuera ágil y confiable. El resultado final superó nuestras expectativas y refleja el compromiso y la calidad de su trabajo."
   }
 ];
